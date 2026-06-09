@@ -6,6 +6,9 @@ import 'package:velvet_bite/screens/home/widgets/collection_section.dart';
 import 'package:velvet_bite/screens/home/widgets/signature_collection_section.dart';
 import 'package:velvet_bite/screens/home/widgets/gallery_section.dart';
 import 'package:velvet_bite/screens/home/widgets/reviews_section.dart';
+import 'package:velvet_bite/screens/home/widgets/follow_section.dart';
+import 'package:velvet_bite/screens/home/widgets/visit_section.dart';
+import 'package:velvet_bite/screens/home/widgets/footer_section.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -25,7 +28,9 @@ class HomeScreen extends StatelessWidget {
             CollectionSection(),
             GallerySection(),
             ReviewsSection(),
-            // Other sections will be added here
+            FollowSection(),
+            VisitSection(),
+            FooterSection(),
           ],
         ),
       ),

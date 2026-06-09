@@ -1,7 +1,7 @@
-import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:velvet_bite/core/theme/app_colors.dart';
 import 'package:velvet_bite/core/theme/app_typography.dart';
+import 'package:velvet_bite/screens/menu/menu_screen.dart';
 
 class HeroSection extends StatelessWidget {
   const HeroSection({super.key});
@@ -20,8 +20,8 @@ class HeroSection extends StatelessWidget {
         ),
       ),
       child: Container(
-        color: Colors.black.withOpacity(
-          0.65,
+        color: Colors.black.withValues(
+          alpha: 0.65,
         ), // Dark overlay for text readability
         child: SafeArea(
           child: Column(
@@ -55,10 +55,17 @@ class HeroSection extends StatelessWidget {
                 child: SizedBox(
                   width: double.infinity,
                   child: OutlinedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const MenuScreen(),
+                        ),
+                      );
+                    },
                     style: OutlinedButton.styleFrom(
                       side: BorderSide(
-                        color: Colors.white.withOpacity(0.4),
+                        color: Colors.white.withValues(alpha: 0.4),
                         width: 1,
                       ),
                       padding: const EdgeInsets.symmetric(vertical: 18),
@@ -115,7 +122,7 @@ class HeroSection extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12),
                   border: Border.all(
-                    color: AppColors.primaryGold.withOpacity(0.6),
+                    color: AppColors.primaryGold.withValues(alpha: 0.6),
                     width: 1.5,
                   ),
                 ),

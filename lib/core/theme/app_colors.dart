@@ -19,6 +19,6 @@ class AppColors {
   static const Color chocolateAccent = Color(0xFF4A2C1D);
 
   // Effects
-  static Color border = const Color(0xFFD4AF37).withOpacity(0.15);
-  static Color goldGlow = const Color(0xFFD4AF37).withOpacity(0.30);
+  static Color border = const Color(0xFFD4AF37).withValues(alpha: 0.15);
+  static Color goldGlow = const Color(0xFFD4AF37).withValues(alpha: 0.30);
 }

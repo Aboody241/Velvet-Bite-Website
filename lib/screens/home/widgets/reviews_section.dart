@@ -105,7 +105,7 @@ class _ReviewsSectionState extends State<ReviewsSection> {
                 decoration: BoxDecoration(
                   color: _currentPage == index
                       ? AppColors.primaryGold
-                      : AppColors.primaryGold.withOpacity(0.2),
+                      : AppColors.primaryGold.withValues(alpha: 0.2),
                   borderRadius: BorderRadius.circular(4.0),
                 ),
               ),

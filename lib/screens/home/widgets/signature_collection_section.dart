@@ -86,7 +86,7 @@ class _SignatureCard extends StatelessWidget {
         ),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.5),
+            color: Colors.black.withValues(alpha: 0.5),
             blurRadius: 10,
             offset: const Offset(0, 4),
           ),
@@ -102,7 +102,7 @@ class _SignatureCard extends StatelessWidget {
                 gradient: LinearGradient(
                   colors: [
                     Colors.transparent,
-                    Colors.black.withOpacity(0.8),
+                    Colors.black.withValues(alpha: 0.8),
                   ],
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
@@ -129,7 +129,7 @@ class _SignatureCard extends StatelessWidget {
                 Text(
                   product.description,
                   style: AppTypography.bodyMedium.copyWith(
-                    color: AppColors.primaryText.withOpacity(0.9),
+                    color: AppColors.primaryText.withValues(alpha: 0.9),
                   ),
                 ),
               ],
