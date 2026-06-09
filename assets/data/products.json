@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Truffle Pasta",
+    "description": "Fresh handmade pasta with black truffle cream sauce.",
+    "price": 24.99,
+    "category": "Pasta",
+    "image": "assets/images/waffle.webp",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Grilled Ribeye Steak",
+    "description": "Premium ribeye steak grilled to perfection.",
+    "price": 39.99,
+    "category": "Main Course",
+    "image": "assets/images/waffle.webp",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Lobster Risotto",
+    "description": "Creamy risotto topped with fresh lobster.",
+    "price": 34.99,
+    "category": "Seafood",
+    "image": "assets/images/waffle.webp",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Classic Caesar Salad",
+    "description": "Romaine lettuce, parmesan cheese and croutons.",
+    "price": 12.99,
+    "category": "Salads",
+    "image": "assets/images/waffle.webp",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Margherita Pizza",
+    "description": "Wood-fired pizza with mozzarella and basil.",
+    "price": 18.99,
+    "category": "Pizza",
+    "image": "assets/images/waffle.webp",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with molten center.",
+    "price": 10.99,
+    "category": "Desserts",
+    "image": "assets/images/waffle.webp",
+    "featured": false
+  }
+]
