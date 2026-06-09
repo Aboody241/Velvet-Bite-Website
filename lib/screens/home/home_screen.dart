@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:velvet_bite/core/theme/app_colors.dart';
 import 'package:velvet_bite/screens/home/widgets/hero_section.dart';
+import 'package:velvet_bite/screens/home/widgets/about_section.dart';
+import 'package:velvet_bite/screens/home/widgets/collection_section.dart';
+import 'package:velvet_bite/screens/home/widgets/signature_collection_section.dart';
+import 'package:velvet_bite/screens/home/widgets/gallery_section.dart';
+import 'package:velvet_bite/screens/home/widgets/reviews_section.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -15,6 +20,11 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: const [
             HeroSection(),
+            AboutSection(),
+            SignatureCollectionSection(),
+            CollectionSection(),
+            GallerySection(),
+            ReviewsSection(),
             // Other sections will be added here
           ],
         ),
